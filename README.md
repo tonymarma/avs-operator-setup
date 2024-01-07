@@ -27,25 +27,25 @@ Update the `TODO` sections in the  `.env` file given in the root directory of th
 
 ### Opt-in into Mangata AVS
 ```bash
-./run.sh opt-in
+sudo ./run.sh opt-in
 ```
 
 ### Run MangataFinalizer Operator
 Execute the following command to start the docker containers:
 ```
-docker compose up -d
+sudo docker compose up -d
 ```
 you can view the logs using:
 ```
-docker logs -f <container_id>
+sudo docker logs -f <container_id>
 ```
 Tear down container
 ```bash
-docker compose down
+sudo docker compose down
 ```
 ### Opt-out into Mangata AVS
 ```bash
-./run.sh opt-out
+sudo ./run.sh opt-out
 ```
 ### Upgrade your node
 
