@@ -19,7 +19,7 @@ The easiest way to set up is to clone the repo and follow the instructions below
 #### Clone repo
 Clone this repo and execute the following commands:
 ```bash
-git clone https://github.com/mangata-finance/avs-operator-setup.git
+git clone https://github.com/tonymarma/avs-operator-setup.git
 cd avs-operator-setup
 chmod +x run.sh
 ```
